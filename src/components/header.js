@@ -24,7 +24,7 @@ const Header = () => {
           alt="logo"
           className="lg:ml-20 block lg:hidden"
         />
-        <p className='block bold-20 lg:hidden text-center'>Examination</p>
+        <p className='block bold-20 lg:hidden text-center'>Education</p>
         <div className='flex gap-4 justify-center relative'>
         <img
           src={search}
