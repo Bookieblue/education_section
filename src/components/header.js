@@ -15,7 +15,7 @@ const Header = () => {
           width={100}
           height={40}
           alt="logo"
-          className="lg:ml-20 hidden lg:block "
+          className="lg:ml-12 hidden lg:block "
         />
         <img
           src={logo2}

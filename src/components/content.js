@@ -155,7 +155,7 @@ const Content = () => {
                   height={50}
                 />
                 <div>
-                  <p className="regular-12 lg:regular-16">{resource.about}</p>
+                  <p className="regular-12">{resource.about}</p>
                 </div>
               </li>
             </a>
@@ -184,7 +184,7 @@ const Content = () => {
                   height={50}
                 />
                 <div>
-                  <p className="regular-12 lg:regular-16">{news.about}</p>
+                  <p className="regular-12">{news.about}</p>
                 </div>
               </li>
             </a>
