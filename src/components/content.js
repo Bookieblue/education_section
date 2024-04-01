@@ -57,7 +57,7 @@ const Content = () => {
           <h3 className="medium-16 lg:medium-20 text-black">
             Popular examinations
           </h3>
-          <div className="mt-10 flex flex-col gap-4 ">
+          <div className="mt-5 flex flex-col gap-4 ">
             {popularExaminations.map((exam) => (
               <a href={exam.link}>
                 <li
