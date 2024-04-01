@@ -72,7 +72,7 @@ const Sidebar = () => {
               </li>
             </a>
           ))}
-          <div className="flex items-center gap-1 mt-20 ml-3 mb-10">
+          <div className="flex items-center gap-1 mt-20 ml-3 mb-10 cursor-pointer">
             <img src={signout} width={25} height={50} alt="logo" />
             <p className="regular-12 lg:regular-16">Signout</p>
           </div>
@@ -148,7 +148,7 @@ const Sidebar = () => {
                 </li>
               </a>
             ))}
-            <div className="flex items-center gap-1 mt-20 ml-3 mb-10">
+            <div className="flex items-center gap-1 mt-20 ml-3 mb-10 cursor-pointer">
               <img src={signout} width={25} height={50} alt="logo" />
               <p className="regular-16">Signout</p>
             </div>
