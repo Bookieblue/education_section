@@ -53,11 +53,11 @@ const Content = () => {
             className="cursor-pointer"
           />
         </div>
-        <div className="mt-7">
+        <div className="mt-7 ">
           <h3 className="medium-16 lg:medium-20 text-black">
             Popular examinations
           </h3>
-          <div className="mt-14 flex flex-col gap-4 ">
+          <div className="mt-10 flex flex-col gap-4 ">
             {popularExaminations.map((exam) => (
               <a href={exam.link}>
                 <li
